@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-en",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the english language.",
+  "keywords": [
+    "english",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-en",
+  "bugs": "https://github.com/stopwords-iso/stopwords-en/issues",
+  "main": "stopwords-en.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-en",
+    "test": "npm run build && jsonlint stopwords-en.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "0.1.x",
+    "jsonlint": "1.6.x"
+  }
+}
