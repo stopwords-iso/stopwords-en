@@ -12,6 +12,14 @@ A [multiple language](https://github.com/stopwords-iso/stopwords-iso) collection
 The collection comes in a JSON format and a text fortmat. You are free to use this collection any way you like.
 It is only currently published on [npm](https://www.npmjs.com/stopwords-en) and [bower](https://bower.io).
 
+```sh
+$ npm install stopwords-en
+```
+
+```sh
+$ bower install stopwords-en
+```
+
 ```js
 // Node
 const stopwords = require('stopwords-en'); // array of stopwords

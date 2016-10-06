@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-en",
+  "description": "The most comprehensive collection of stopwords for the english language.",
+  "keywords": [
+    "english",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-en",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-en.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}
