@@ -20,7 +20,7 @@
     "test": "npm run build && jsonlint stopwords-en.json -q"
   },
   "devDependencies": {
-    "stopwords-collator": "0.1.x",
+    "stopwords-collator": "0.2.x",
     "jsonlint": "1.6.x"
   }
 }
