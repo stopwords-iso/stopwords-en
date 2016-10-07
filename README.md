@@ -9,7 +9,10 @@ A [multiple language](https://github.com/stopwords-iso/stopwords-iso) collection
 
 ### Usage
 
-The collection comes in a JSON format and a text fortmat. You are free to use this collection any way you like.
+The collection comes in a 
+[JSON format](https://raw.githubusercontent.com/stopwords-iso/stopwords-iso/master/stopwords-en.json) and a 
+[text format](https://raw.githubusercontent.com/stopwords-iso/stopwords-iso/master/stopwords-en.txt). 
+You are free to use this collection any way you like.
 It is only currently published on [npm](https://www.npmjs.com/stopwords-en) and [bower](https://bower.io).
 
 ```sh
