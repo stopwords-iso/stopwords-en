@@ -1,4 +1,4 @@
-Stopwords EN
+Stopwords English (EN)
 =======
 
 [![Build Status](https://travis-ci.org/stopwords-iso/stopwords-en.svg?branch=master)](https://travis-ci.org/stopwords-iso/stopwords-en)
